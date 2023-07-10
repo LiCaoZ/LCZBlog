@@ -64,9 +64,9 @@
 
 下载并解压解锁工具压缩包后，打开 miflash_unlock.exe，根据指引完成操作。
 
-![](/assets/img/Pasted%20image%2020230109135808.png)
+![](/assets/img/Pasted-image-20230109135808.png)
 
-![](/assets/img/Pasted%20image%2020230109135852.png)
+![](/assets/img/Pasted-image-20230109135852.png)
 
 在此之后，设备会自动重启。由于解锁清除了用户数据，这个重启过程可能会比较漫长。
 
@@ -124,7 +124,7 @@ Directory of C:\Users\LiCaoZ\Downloads\merlin_images_V12.5.4.0.RJOCNXM_20220118.
 
 这时，你可以直接双击打开 `flash_all.bat`，开始刷机操作。
 
-![](/assets/img/Pasted%20image%2020230109143152.png)
+![](/assets/img/Pasted-image-20230109143152.png)
 
 如果命令提示符进行到 `fastboot reboot` 阶段或窗口关闭、设备重启，则证明刷机过程已完毕。同时，我建议你备份你的 IMEI 号码，防止由于跨版本降级导致的 IMEI 丢失（我从 Android 13 用 A11 包救砖就把这个鬼搞丢了）。
 

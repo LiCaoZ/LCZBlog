@@ -5,6 +5,7 @@ export default defineConfig({
   title: "LCZBlog",
   description: "LCZBlog",
   cleanUrls: true,
+  ignoreDeadLinks: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
 

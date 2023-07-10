@@ -2,7 +2,6 @@
 import { h } from 'vue'
 import Theme from 'vitepress/theme'
 import './style.css'
-import './zh-hant-font-family'
 
 export default {
   extends: Theme,

@@ -3,6 +3,8 @@ import { h } from 'vue'
 import Theme from 'vitepress/theme'
 import './style.css'
 
+import Card from '../../assets/components/links.vue';
+
 export default {
   extends: Theme,
   Layout: () => {
@@ -11,6 +13,6 @@ export default {
     })
   },
   enhanceApp({ app, router, siteData }) {
-    // ...
+    app.component('Card', Card)
   }
 }

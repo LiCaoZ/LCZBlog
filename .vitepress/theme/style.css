@@ -4,14 +4,16 @@
  */
 
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 /**
- * Fonts & background
+ * Fonts
  * -------------------------------------------------------------------------- */
 
-* {
-  font-family: -apple-system, BlinkMacSystemFont, ubuntu, "pingfang sc", "helvetica neue", "microsoft yahei", "STHeiti Light", sans-serif;
+:root {
+  --vp-font-family-base: -apple-system, BlinkMacSystemFont, ubuntu, "pingfang sc", "helvetica neue", "microsoft yahei", "STHeiti Light", sans-serif; 
   /* Thank You Coxxs */
+  --vp-font-family-mono: "Ubuntu Mono", "microsoft yahei", monospace;
 }
 
 /**
